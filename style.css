@@ -5,7 +5,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #eef2f7;
+   background-image: url('https://images.pexels.com/photos/5208771/pexels-photo-5208771.jpeg?cs=srgb&dl=pexels-karolina-grabowska-5208771.jpg&fm=jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+
     color: #333;
 }
 
@@ -13,7 +16,7 @@ body {
     width: 90%;
     max-width: 700px;
     margin: 50px auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.36);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
