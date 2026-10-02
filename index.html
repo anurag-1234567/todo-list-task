@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+
+    <div class="container">
+
+        <h1>To-Do Task Manager</h1>
+
+        <!-- Add Task Section -->
+        <div class="add-task">
+
+            <input
+                type="text" id="taskInput" placeholder="Enter a task"
+            >
+
+            <button id="addButton">Add Task  </button>
+
+        </div>
+
+        <!-- Task Counters -->
+        <div class="counters">
+
+            <div class="counter">
+                <h3>Total</h3>
+                <p id="totalCount">0</p>
+            </div>
+
+            <div class="counter">
+                <h3>Completed</h3>
+                <p id="completedCount">0</p>
+            </div>
+
+            <div class="counter">
+                <h3>Remaining</h3>
+                <p id="remainingCount">0</p>
+            </div>
+
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+ <button id="allButton" class="active"> All</button>
+
+            <button id="completedButton">Completed </button>
+
+            <button id="pendingButton">Pending</button>
+
+        </div>
+
+        <!-- Task List -->
+        <div id="taskList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
