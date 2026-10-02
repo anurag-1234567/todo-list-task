@@ -139,8 +139,7 @@ h1 {
 /* Completed task */
 
 .task.completed .task-title {
-    text-decoration: line-through;
-    color: #888;
+    color: red;
 }
 
 .task.completed {
